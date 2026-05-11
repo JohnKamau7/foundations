@@ -1,0 +1,12 @@
+/*Resets the whole page and removes all browser defaults*/
+* {
+  margin: 0; /*space outside an element*/
+  padding: 0;/*space inside and element*/
+  box-sizing: border-box; /*makes width include padding*/
+}
+
+body {
+  font-family: 'Poppins', sans-serif; /*Ensures that every text in the body has this font*/
+  background-color: #0a0a0a;/* this is the color of the body section of the page*/
+  color: #ffffff; /*Every text in the section should have this font color*/
+}
