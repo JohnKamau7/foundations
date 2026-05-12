@@ -10,3 +10,34 @@ body {
   background-color: #0a0a0a;/* this is the color of the body section of the page*/
   color: #ffffff; /*Every text in the section should have this font color*/
 }
+
+nav {
+  display: flex; /*line everything up horizontally the logo*/
+  justify-content: space-between; /*pushes the logo left, links right*/
+  align-items: center; /*centers everything verticaly*/
+  padding: 20px 60px; /*breathing room inside the nav*/
+  background-color: #111111; /*dark background*/
+}
+
+.logo {
+  font-size: 20px; /*the size of the logo*/
+  font-weight: 700; /*controls how bold the text is*/
+  color: #534ab7; /*text color of the logo*/
+}
+
+nav ul {
+  list-style: none; /*removes any styling like bullet points of the links*/
+  display: flex; /*lines the links horizontally*/
+  gap: 32px; /*add space between the links*/
+}
+
+nav ul li a {
+  text-decoration: none; /*removes the underline from the a tags*/
+  color: #ffffff; /*Text color of the elements to white*/
+  font-size: 14px; /*specifies the font size of the navigation links*/
+  transition: color 0.2s; /*makes the color change smoothly when you hover over it*/
+}
+
+nav ul li a:hover { /*once I hove my cursor over the links they should turn to the specified color*/
+  color: #534ab7; 
+}
