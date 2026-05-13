@@ -14,7 +14,7 @@ body {
 nav {
   display: flex; /*line everything up horizontally the logo*/
   justify-content: space-between; /*pushes the logo left, links right*/
-  align-items: center; /*centers everything verticaly*/
+  align-items: center; /*centers everything vertically*/
   padding: 20px 60px; /*breathing room inside the nav*/
   background-color: #111111; /*dark background*/
 }
@@ -40,4 +40,12 @@ nav ul li a {
 
 nav ul li a:hover { /*once I hove my cursor over the links they should turn to the specified color*/
   color: #534ab7; 
+}
+
+#hero{
+  min-height: 90vh; /* makes the hero section occupy 90% of the visible screen*/
+  display: flex; /* enables flexbox on this element */
+  flex-direction: column; /* stacks elements vertically instead of horizontally */
+  justify-content: center; /* centers elements vertically */
+  align-items: center; /* centers elements horizontally */
 }
