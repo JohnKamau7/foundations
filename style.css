@@ -62,3 +62,8 @@ nav ul li a:hover { /*once I hove my cursor over the links they should turn to t
   color: #aaaaaa; /* sets the text color of the paragraph */
   line-height: 1.6; /* controls spacing between lines of text, 1.6 times the font size */
 }
+
+#about {
+  padding: 80px 60px;
+  max-width: 600px;
+}
