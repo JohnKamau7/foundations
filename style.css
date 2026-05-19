@@ -64,6 +64,28 @@ nav ul li a:hover { /*once I hove my cursor over the links they should turn to t
 }
 
 #about {
-  padding: 80px 60px;
-  max-width: 600px;
+  padding: 100px 60px;
+  background-color: #111111;
+}
+
+#about h2 {
+  font-size: 42px;
+  margin-bottom: 40px;
+  color: #ffffff;
+}
+
+.about-content {
+  max-width: 700px;
+}
+
+.about-content p{
+  font-size: 18px;
+  line-height: 1.75; /*controls the vertical space between lines of text in the paragraph*/
+  color: #cccccc;
+  margin-bottom: 28px; /*adds breathing room between the paragraphs*/
+}
+
+/*removes the bottom margin from the last paragraph inside the ".about-content" div*/
+.about-content p:last-child {
+  margin-bottom: 0; 
 }
