@@ -89,3 +89,61 @@ nav ul li a:hover { /*once I hove my cursor over the links they should turn to t
 .about-content p:last-child {
   margin-bottom: 0; 
 }
+
+#projects {
+  padding: 80px 60px; /* breathing room around the section */
+}
+
+#projects h2 {
+  font-size: 42px; /* section heading size */
+  margin-bottom: 16px; /* space below heading */
+  color: #ffffff; /* heading color */
+}
+
+#projects > p {
+  color: #aaaaaa; /* muted subtitle color */
+  margin-bottom: 48px; /* space between subtitle and cards */
+}
+
+.projects-grid {
+  display: grid; /* enables grid layout */
+  grid-template-columns: repeat(2, 1fr); /* two equal columns */
+  gap: 24px; /* space between cards */
+}
+
+.project-card {
+  background-color: #111111; /* dark card background */
+  border: 1px solid #222222; /* subtle border */
+  border-radius: 12px; /* rounded corners */
+  padding: 24px; /* breathing room inside card */
+  transition: border-color 0.2s; /* smooth border color change on hover */
+}
+
+.project-card:hover {
+  border-color: #534ab7; /* purple border on hover */
+}
+
+.project-card h3 {
+  font-size: 18px; /* project title size */
+  color: #ffffff; /* title color */
+  margin-bottom: 8px; /* space below title */
+}
+
+.project-card p {
+  font-size: 14px; /* description size */
+  color: #aaaaaa; /* muted description color */
+  margin-bottom: 16px; /* space below description */
+  line-height: 1.6; /* readable line height */
+}
+
+.project-card a {
+  color: #534ab7; /* purple link color */
+  text-decoration: none; /* removes underline */
+  font-size: 14px; /* link text size */
+  font-weight: 500; /* medium bold */
+  transition: color 0.2s; /* smooth color change on hover */
+}
+
+.project-card a:hover {
+  color: #7c6fff; /* lighter purple on hover */
+}
