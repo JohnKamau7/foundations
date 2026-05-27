@@ -147,3 +147,41 @@ nav ul li a:hover { /*once I hove my cursor over the links they should turn to t
 .project-card a:hover {
   color: #7c6fff; /* lighter purple on hover */
 }
+
+#contact {
+  padding: 80px 60px; /*breathing room around the section*/
+}
+
+#contact h2 {
+  font-size: 42px; /* section heading size */
+  margin-bottom: 16px; /* space below heading */
+  color: #ffffff; /* heading color */
+}
+
+#contact p {
+  font-size: 18px; /* sets the size of the paragraph text */
+  color: #aaaaaa; /* sets the text color of the paragraph */
+}
+
+#contact a{
+  display: inline-block;
+  margin-top: 20px; /* space from the section above it */
+  padding: 12px 28px; /* breathing room for the text inside the button */
+  background-color: #534ab7; /* color of backround inside the button*/
+  color: white; /*text color */
+  text-decoration: none; /* removes the underline from the <a> tag */
+  border-radius: 8px; /* rounded corners of the button */
+  font-size: 14px; /* font size for the text inside the button */
+}
+
+#contact a:hover{
+  background-color: #3f368c; /* transforms to this color during on hover over the button */
+}
+
+footer {
+  text-align: center; /* centers the text */
+  padding: 24px; /* breathing room */
+  color: #555555; /* muted color */
+  font-size: 14px; /* small text */
+  border-top: 1px solid #222222; /* subtle line above footer */
+}
