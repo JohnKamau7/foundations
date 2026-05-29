@@ -185,3 +185,27 @@ footer {
   font-size: 14px; /* small text */
   border-top: 1px solid #222222; /* subtle line above footer */
 }
+
+@media (max-width: 768px) {
+  nav {
+    flex-direction: column;
+    gap: 16px;
+    padding: 20px;
+  }
+
+  #hero h1 {
+    font-size: 32px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  #hero p {
+    font-size: 16px;
+    text-align: center;
+    padding: 0 20px;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr; /* creates only 1 column which takes the full available width */
+  }
+}
