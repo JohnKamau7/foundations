@@ -11,6 +11,10 @@ body {
   color: #ffffff; /*Every text in the section should have this font color*/
 }
 
+.hamburger {
+  display: none;
+}
+
 nav {
   display: flex; /*line everything up horizontally the logo*/
   justify-content: space-between; /*pushes the logo left, links right*/
@@ -188,9 +192,31 @@ footer {
 
 @media (max-width: 768px) {
   nav {
-    flex-direction: column;
-    gap: 16px;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
     padding: 20px;
+  }
+
+  .hamburger {
+    display: block;
+    background: none;
+    border: none;
+    color: #ffffff;
+    font-size: 24px;
+    cursor: pointer;
+  }
+
+  #nav-links {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    gap: 16px;
+    padding: 20px 0;
+  }
+
+  #nav-links.open {
+    display: flex;
   }
 
   #hero h1 {
